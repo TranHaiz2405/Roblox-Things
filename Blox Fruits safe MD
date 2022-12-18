@@ -1,0 +1,20 @@
+if game.PlaceId == 4442272183 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script status";
+Text = "Sea 2 found, executed!";
+Icon = "rbxassetid://0";
+Duration = 5;
+})
+loadstring(game:HttpGet("https://github.com/TranHaiz2405/Roblox-Things/blob/main/BloxFruits_safe_mode"))()
+
+elseif game.PlaceId == 7449423635 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script status";
+Text = "Sea 3 found, executed!";
+Icon = "rbxassetid://0";
+Duration = 5;
+})
+loadstring(game:HttpGet("https://github.com/TranHaiz2405/Roblox-Things/blob/main/BloxFruits_safe_mode"))()
+
+else game.Players.LocalPlayer:Kick("Sea 2 or 3 not found.")
+end
