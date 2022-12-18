@@ -5,7 +5,7 @@ Text = "Sea 2 found, executed!";
 Icon = "rbxassetid://0";
 Duration = 5;
 })
-loadstring(game:HttpGet("https://github.com/TranHaiz2405/Roblox-Things/blob/main/BloxFruits_safe_mode"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TranHaiz2405/Roblox-Things/main/Safe_mode_sauce"))()
 
 elseif game.PlaceId == 7449423635 then
 game.StarterGui:SetCore("SendNotification", {
@@ -14,7 +14,7 @@ Text = "Sea 3 found, executed!";
 Icon = "rbxassetid://0";
 Duration = 5;
 })
-loadstring(game:HttpGet("https://github.com/TranHaiz2405/Roblox-Things/blob/main/BloxFruits_safe_mode"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TranHaiz2405/Roblox-Things/main/Safe_mode_sauce"))()
 
 else game.Players.LocalPlayer:Kick("Sea 2 or 3 not found.")
 end
