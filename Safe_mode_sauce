@@ -2,6 +2,6 @@ while wait() do
 local ch = game.Players.LocalPlayer.Character.Humanoid.Health
 if ch <= 6199 then
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Im fooled","All")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Im fooled😭😭😭","All")
 break end
 end
