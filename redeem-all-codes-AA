@@ -1,5 +1,6 @@
 repeat wait() until game:IsLoaded()
 if game.PlaceId == 8304191830 then
+game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("NEWYEAR2023")
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("GRAVITY")
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("CHRISTMAS2022")
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("SubToBlamspot")
@@ -9,5 +10,6 @@ game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:Invo
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("FictioNTheFirst")
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("noclypso")
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("TOADBOIGAMING")
+game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer("PORTALFIX")
 else print("Anime Adventures lobby not found.")
 end
